@@ -1,0 +1,66 @@
+0	3
+1	5
+2	0
+3	5
+4	FFFF
+5	9
+6	FFF2
+7	FFFF
+@
+8
+@
+CRA
+ADD	1
+CTA
+ITA
+ROL_F_ACC
+SFZ
+JMP	11
+ROR_F_ACC
+HALT
+CSR	13	
+JMP	8
+HALT
+CRA
+ADDI	0
+ROL_F_ACC
+SFZ
+JMP	27
+ROR_F_ACC
+CRA
+ADD	0
+ITA
+STA	0
+CRA
+ADD	1
+CTA
+ITA
+ITA
+CTA
+ITA
+STA	1
+JMPI	13
+ROR_F_ACC
+CTA
+ITA
+STAI	0
+CRA
+ADD	0
+ITA
+STA     0
+CRA
+ADD     1
+CTA
+ITA
+ITA
+CTA
+ITA
+STA     1
+JMPI    13
+
+
+
+
+
+
+#- complementar a 2 el numero de elementos del vector e ir recorriendolo con el puntero iterador hasta que el numero de elementos sea 0
